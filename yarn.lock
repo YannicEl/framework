@@ -4972,10 +4972,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/reset@npm:^0.26.4":
-  version: 0.26.4
-  resolution: "@unocss/reset@npm:0.26.4"
-  checksum: de3dd4879d3f600d75dd34ea1cb8f05ee8f7ee36ea405781ad5855aa98a2640524292bd0851a51cad6f17261b0fae5e59d20b718de99609590fa506121d8b114
+"@unocss/reset@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "@unocss/reset@npm:0.27.0"
+  checksum: 01a85a76fd4359b5abe00d0585e09a516e188730f04cd8046f24ca1e714042c4d855c28d69229c64d21951164808d0c507a324576755e3594a16f3199e2a3014
   languageName: node
   linkType: hard
 
@@ -15383,7 +15383,7 @@ __metadata:
     "@types/jsdom": ^16
     "@types/node": ^16.11.26
     "@types/object-hash": ^2
-    "@unocss/reset": ^0.26.4
+    "@unocss/reset": ^0.27.0
     esbuild: ^0.14.23
     eslint: ^8.10.0
     eslint-plugin-jsdoc: ^37.9.5
@@ -15396,7 +15396,7 @@ __metadata:
     miniflare: ^1.4.1
     object-hash: ^3.0.0
     pathe: ^0.2.0
-    typescript: ^4.5.5
+    typescript: ^4.6.2
     unbuild: ^0.6.9
     vitest: ^0.5.8
     vue-router: ^4.0.13
@@ -20899,6 +20899,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "typescript@npm:4.6.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 8a44ed7e6f6c4cb1ebe8cf236ecda2fb119d84dcf0fbd77e707b2dfea1bbcfc4e366493a143513ce7f57203c75da9d4e20af6fe46de89749366351046be7577c
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@^4.3.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
   resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=bda367"
@@ -20906,6 +20916,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 858c61fa63f7274ca4aaaffeced854d550bf416cff6e558c4884041b3311fb662f476f167cf5c9f8680c607239797e26a2ee0bcc6467fbc05bfcb218e1c6c671
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>":
+  version: 4.6.2
+  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 40b493a71747fb89fa70df104e2c4a5e284b43750af5bea024090a5261cefa387f7a9372411b13030f7bf5555cee4275443d08805642ae5c74ef76740854a4c7
   languageName: node
   linkType: hard
 
